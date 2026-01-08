@@ -185,3 +185,70 @@ button{
 .about-info h4{
     font-size: 20px ;
 }
+
+/* skills */
+
+
+.skills{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.skills-heading{
+    width: 71%;
+    max-width: 827px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skills-heading h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.skills-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #474747;
+}
+
+.card-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+
+}
+
+.card-container .card{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0 #0000001e;
+    transition: 0.3s;
+}
+
+.card-container .card img{
+    max-width: 44px;
+    padding-bottom: 30px;
+}
+
+.card-container .card h4{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.card-container .card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
