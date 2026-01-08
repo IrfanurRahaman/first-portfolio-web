@@ -12,6 +12,9 @@
     
 header{
     background-color: #FFF8F3;
+    background: url(images/developer.png),url(images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: left center , right bottom;
 }
 
 nav{
@@ -37,7 +40,7 @@ nav a{
     font-size: 20px;
 }
 
-nav button{
+button{
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -45,7 +48,6 @@ nav button{
     border-radius: 5px;
     padding: 18px 35px;
     border:none
-    
 }
 
 .logo h2{
@@ -57,6 +59,69 @@ nav button{
     color: #FD6E0A;
 }
 
+/* making banner */
+
+.banner{
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 163px;
+}
+
+.banner .banner-text{
+    max-width: 585px;
+    animation: textslide 1.3s forwards;
+}
+
+.banner img{
+    vertical-align:middle;
+    animation: imageslide 1.3s forwards;
+    max-width: 585px;
+}
+
+.banner .banner-text h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner .banner-text h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.banner .banner-text p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
 
 
+@keyframes textslide {
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
 
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes imageslide {
+    0%{
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
