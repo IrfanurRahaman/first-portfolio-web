@@ -50,6 +50,19 @@ button{
     border:none
 }
 
+.CV i{
+    padding-right: 10px;
+}
+
+.contact{
+    margin-left: 30px;
+    background-color:#FFF8F3;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+
+
 .logo h2{
     font-size: 45px;
     font-weight: 900;
@@ -116,12 +129,59 @@ button{
 
 @keyframes imageslide {
     0%{
-        transform: translateY(-150px);
+        transform: translateX(150px);
         opacity: 0;
     }
 
     100%{
-        transform: translateY(0px);
+        transform: translateX(0px);
         opacity: 1;
     }
+}
+
+
+/* about section */
+
+.about{
+    background-color: #FFF8F3;
+    width: 71%;
+    max-width: 1140;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+    padding: 131px 156px;
+    border-radius: 10px;
+}
+
+.about .about-section{
+    max-width: 827px;  
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.about-section h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-section p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.about-section .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info p{
+    font-size: 20px;
+    color: #474747;
+}
+
+.about-info h4{
+    font-size: 20px ;
 }
