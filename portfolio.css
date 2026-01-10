@@ -50,6 +50,10 @@ button{
     border:none
 }
 
+button{
+    cursor: pointer;
+}
+
 .CV i{
     padding-right: 10px;
 }
